@@ -87,7 +87,7 @@ ol li
   height: 202px;}
 
 #logo
-{ width: 898px;
+{ width: 1540px;
   position: relative;
   height: 148px;
   border-bottom: 2px solid #FFF;}
@@ -118,7 +118,7 @@ ol li
   color: #FFF;}
 
 #menubar
-{ width: 898px;
+{ width: 1565px;
   height: 52px;
   padding: 0;
   background: #000;} 
@@ -150,7 +150,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   background: transparent url(transparent_light.png) repeat;}
 
 #site_content
-{ width: 854px;
+{ width: 1500px;
   overflow: hidden;
   margin: 0 auto 0 auto;
   padding: 0 24px 20px 20px;
@@ -182,7 +182,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 #content
 { text-align: left;
   float: left;
-  width: 595px;
+  width: 1000px;
   padding: 0;}
 
 #content ul
