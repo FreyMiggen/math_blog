@@ -109,9 +109,32 @@
       x+ y\\
       \end{bmatrix} 
     $$      
-      That is simple and cool! But we care more than just linear transformation
+      
+      We could write v and A as follow:
+      <p>    
 
-        </p>
+        \(v= \begin{bmatrix} 
+            f(x,y)\\
+            g(x,y)\\
+            \end{bmatrix}\)
+        and
+        \(A=\begin{bmatrix} 
+        \frac{\partial f(x,y)}{\partial x} & \frac{\partial f(x,y)}{\partial y}\\
+        \frac{\partial g(x,y)}{\partial x} & \frac{\partial g(x,y)}{\partial y}\\
+        \end{bmatrix}\)
+     
+      </p>
+      A tells us exactly both the direction and magnitufe of of how a small change in x or y affects each entry of v. In other words, gradient of v with respect to x and y. 
+      Because \(f(x,y)\) and \(g(x,y)\) are all linear functions with respect to x,y \(=>\) gradients of \(f(x,y)\) and \(g(x,y)\) with respect to x, y in every point are the same.
+      A is the matrix that have all these gradients stacked together.
+      </p>
+      <p>
+        That is pretty simple and easy to understand. But we care more than just linear functions. How to find a matrix like A that represents all gradients of 
+        \(v=\begin{bmatrix} 2x^2+4y^3\\
+                            x^3-2y^2\\
+                            \end{bmatrix}\)
+        But with some calculus knowledge at hand, we 
+      </p>
         <p>
          \[sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}\]
         </p>
